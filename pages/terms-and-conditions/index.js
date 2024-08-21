@@ -111,7 +111,7 @@ export default function Index() {
                     <h2>SEVERABILITY</h2>
                     <p>If any provision of these Terms is found to be invalid or unenforceable by a court of competent jurisdiction, the remaining provisions of these Terms will remain in full force and effect. The invalid or unenforceable provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision.</p>
 
-                    <h3>ENTIRE AGREEMENT</h3>
+                    <h2>ENTIRE AGREEMENT</h2>
                     <p>These Terms, together with the Privacy Policy and any other agreements or documents incorporated by reference, constitute the entire agreement between you and ClubRXPro regarding your use of the Site and Services. These Terms supersede all prior or contemporaneous communications and proposals, whether oral, written, or electronic, between you and ClubRXPro with respect to the Site and Services.</p>
 
                     <h2>WAIVER</h2>

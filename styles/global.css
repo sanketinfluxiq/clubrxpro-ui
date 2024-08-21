@@ -131,7 +131,7 @@ video {
     font-size: 50PX;
     line-height: 56PX;
     font-weight: 800;
-    color: #0F57C3;
+    /* color: #0F57C3; */
     text-align: center;
     text-transform: uppercase;
     text-decoration: underline;
@@ -141,7 +141,7 @@ video {
     font-size: 35px;
     line-height: 40px;
     font-weight: 700;
-    color: #14B4E0;
+    /* color: #14B4E0; */
     text-transform: uppercase;
     margin-bottom: 10px;
 }
@@ -156,17 +156,31 @@ video {
     font-size: 30px;
     line-height: 36px;
     font-weight: 600;
-    color: #2ec2eb;
+    /* color: #2ec2eb; */
     margin-bottom: 10px;
 }
 .sub_content_sec h5 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
-    color: #080808;
+    /* color: #080808; */
     padding-left: 25px;
     margin-bottom: 20px;
 }
+.sub_content_sec h5 strong {
+    font-weight: 700;
+}
+.terms_and_conditions_main {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #080808;
+    margin-bottom: 25px;
+}
+
+
+
+
 .footer_copyright_sec {
     color: #98a0a7;
     font-size: 18px;
@@ -191,6 +205,4 @@ video {
     color: #fff;
     background-color: #c9011b;
 }
-.sub_content_sec h5 strong {
-    font-weight: 700;
-}
+
