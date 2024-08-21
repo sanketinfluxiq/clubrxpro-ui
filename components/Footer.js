@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='footer_wrapper'>
         <div className='common_width'>
             <div className='footer'>
-                <Link className='footer_icon_left'>
+                <Link href="" className='footer_icon_left'>
                     <img src='https://all-frontend-assets.s3.amazonaws.com/ClubRXPro/clubrxprologo.webp' />
                 </Link>
                 <ul className='footer_nav_sec'>
