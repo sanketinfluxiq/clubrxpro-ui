@@ -93,14 +93,22 @@ video {
     margin: 0 auto;
 }
 .footer_wrapper {
-    background:  #000;
+    background: url('https://all-frontend-assets.s3.amazonaws.com/ClubRXPro/clubrxprologobg.webp'), #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
 }
 .footer {
     padding: 50px 10px;
-    background: url('https://all-frontend-assets.s3.amazonaws.com/ClubRXPro/clubrxprologobg.webp') no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 .footer_icon_left {
     display: inline-block;
+    cursor: pointer;
 }
 .footer_icon_left img {
     display: inline-block;
@@ -215,9 +223,27 @@ video {
 
 
 .footer_copyright_sec {
-    font-family: "Open Sans", sans-serif;
     color: #98a0a7;
     font-size: 18px;
     font-weight: 600;
+    margin-top: 50px;
+}
+.footer_nav_sec {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer_nav_sec li .footer_link {
+    cursor: pointer;
+    margin: 3px;
+    padding: 10px 15px;
+    color: #98a0a7;
+    font-size: 18px;
+
+}
+.footer_nav_sec li .footer_link:hover {
+    color: #fff;
+    background-color: #c9011b;
 }
 
