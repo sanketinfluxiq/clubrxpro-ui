@@ -4,7 +4,7 @@ export default function Index() {
     return (
         <>
             <div className='terms_and_conditions_main'>
-              <div className='common_width'>
+              <div className='tc_and_pp_common_width'>
                 <div className='heading_sec'>
                     <h1>ClubRXPro Terms and Conditions</h1>
                 </div>

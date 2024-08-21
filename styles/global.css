@@ -116,8 +116,8 @@ video {
 .terms_and_conditions_main {
     padding: 45px 0;
 }
-.common_width {
-    width: 96%;
+.tc_and_pp_common_width {
+    width: 90%;
     margin: 0 auto;
 }
 .heading_sec h1 {
@@ -169,6 +169,46 @@ video {
     font-weight: 500;
     color: #080808;
     margin-bottom: 25px;
+}
+
+/* ---------Privacy Policy---------- */
+.comtent_sec h6 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #080808;
+    margin-bottom: 20px;
+}
+.comtent_sec h2 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    /* color: #14B4E0; */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.comtent_sec h3 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    /* color: #2ec2eb; */
+    margin-bottom: 10px;
+}
+.comtent_sec p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #080808;
+    margin-bottom: 12px;
+}
+.sub_pointe {
+    padding-left: 30px;}
+.sub_pointe li {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 10px;
 }
 
 
