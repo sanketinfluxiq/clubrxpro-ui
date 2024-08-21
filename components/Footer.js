@@ -16,14 +16,16 @@ const Footer = () => {
             </Link>
             <ul className="footer_nav_sec">
               <li>
-                <Link href="" onClick={() => router.push("/privacy-policy")}>
+                <Link href="/privacy-policy" 
+                // onClick={() => router.push("")}
+                >
                   Privacy Policy
                 </Link>
               </li>
               <li>
                 <Link
-                  href=""
-                  onClick={() => router.push("/terms-and-conditions")}
+                  href="/terms-and-conditions"
+                //   onClick={() => router.push("")}
                 >
                   Terms and Conditions
                 </Link>

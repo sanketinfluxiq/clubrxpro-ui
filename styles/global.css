@@ -178,13 +178,18 @@ video {
     display: flex;
     align-items: center;
 }
-.footer_nav_sec li {
-    margin: 3px;
-    padding: 10px 15px;
-}
+
 .footer_nav_sec li a {
     text-decoration: none;
+    margin: 3px;
+    padding: 10px 15px;
     color: #98a0a7;
+    font-size: 18px;
+
+}
+.footer_nav_sec li a:hover {
+    color: #fff;
+    background-color: #c9011b;
 }
 .sub_content_sec h5 strong {
     font-weight: 700;
