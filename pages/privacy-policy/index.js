@@ -12,6 +12,7 @@ export default function Index() {
                         <h6>Effective Date: August 21, 2024</h6>
                         <p>ClubRXPro ("we," "us," "our") is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, share, and protect the information you provide when using our website, mobile applications, and related services (collectively, the "Services"). Please read this policy carefully to understand our practices regarding your information. By using our Services, you agree to the terms of this Privacy Policy.</p>
 
+                        <div className='main_point'>
                         <h2>TABLE OF CONTENTS</h2>
                         <p>1. Information We Collect</p>
                         <p>2. How We Use Your Information</p>
@@ -24,7 +25,9 @@ export default function Index() {
                         <p>9. HIPAA Compliance</p>
                         <p>10. Updates to This Privacy Policy</p>
                         <p>11. How to Contact Us</p>
+                        </div>
 
+                        <div className='main_point'>
                         <h2>1. INFORMATION WE COLLECT</h2>
                         <h3>1.1 Personal Information</h3>
                         <p>Personal Information refers to any data that can identify you as an individual. When you use our Services, we may collect the following types of Personal Information:</p>
@@ -44,8 +47,9 @@ export default function Index() {
                             <li><strong>Location Information:</strong> General geographic location based on your IP address or device settings.</li>
                             <li><strong>Cookies and Tracking Data:</strong> Information collected through cookies, web beacons, and other tracking technologies (detailed in Section 4).</li>
                         </ul>
+                        </div>
 
-
+                        <div className='main_point'>
                         <h2>2. HOW WE USE YOUR INFORMATION</h2>
                         <h3>2.1 Providing Services</h3>
                         <p>We use the information we collect to deliver the Services you request, including:</p>
@@ -72,8 +76,10 @@ export default function Index() {
                             <li><strong>Legal Compliance:</strong> Complying with applicable laws, regulations, and legal processes, and responding to requests from regulatory and governmental authorities.</li>
                             <li><strong>Policy Enforcement:</strong> Enforcing our Terms of Service, Privacy Policy, and other policies, as well as investigating potential violations.</li>
                         </ul>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>3. HOW WE SHARE YOUR INFORMATION</h2>
                         <h3>3.1 Third-Party Service Providers</h3>
                         <p>We may share your Personal Information with third-party service providers who perform functions on our behalf, such as:</p>
@@ -94,8 +100,10 @@ export default function Index() {
 
                         <h3>3.4 Business Transfers</h3>
                         <p>In the event of a merger, acquisition, or sale of all or part of our business, your information may be transferred to the new owner as part of the transaction. We will notify you of any such change in ownership or control of your Personal Information.</p>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>4. COOKIES AND OTHER TRACKING TECHNOLOGIES</h2>
                         <h3>4.1 What Are Cookies?</h3>
                         <p>Cookies are small text files stored on your device when you visit a website. They help us recognize your device and remember your preferences and actions. We use both session cookies (which expire when you close your browser) and persistent cookies (which remain on your device until deleted or expired).</p>
@@ -113,8 +121,10 @@ export default function Index() {
 
                         <h3>4.4 Managing Cookies</h3>
                         <p>You can control the use of cookies through your browser settings. Most browsers allow you to block or delete cookies, but doing so may limit your ability to use certain features of our website. For more information on how to manage cookies, visit the help section of your browser or the website href="http://www.aboutcookies.org".</p>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>5. DATA SECURITY</h2>
                         <h3>5.1 Our Commitment to Security</h3>
                         <p>We implement a variety of security measures to protect your Personal Information from unauthorized access, use, alteration, and disclosure. These measures include:</p>
@@ -129,28 +139,36 @@ export default function Index() {
 
                         <h3>5.3 Security Incidents</h3>
                         <p>Despite our best efforts, no security measures are completely foolproof. In the event of a data breach or security incident, we will promptly notify affected individuals and take appropriate steps to mitigate the impact.</p>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>6. YOUR RIGHTS AND CHOICES</h2>
                         <h3>6.1 Accessing and Updating Your Information</h3>
                         <p>You have the right to access, correct, or update your Personal Information at any time. You can do so by logging into your account or contacting our customer service team. We encourage you to keep your information accurate and up to date to ensure the best possible service.</p>
 
                         <h3>6.2 Opting Out of Communications</h3>
                         <p>You may opt out of receiving promotional emails and newsletters from us by following the unsubscribe instructions in these communications or by adjusting your communication preferences in your account settings. Please note that even if you opt out of marketing communications, we may still send you important service-related messages.</p>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>7. CHILDREN'S PRIVACY</h2>
                         <p>Our Services are not intended for use by children under the age of 18. We do not knowingly collect Personal Information from minors without parental consent. If we become aware that we have inadvertently collected information from a child under 18, we will take steps to delete that information. Parents or guardians who believe that their child may have provided us with Personal Information should contact us immediately.</p>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>8. EXTERNAL LINKS AND THIRD-PARTY SERVICES</h2>
                         <h3>8.1 External Links</h3>
                         <p>Our Services may contain links to third-party websites or services that are not operated by us. These links are provided for your convenience, but we do not control or endorse these sites. We are not responsible for the content, privacy practices, or security of these external sites. We recommend that you review the privacy policies of any third-party sites you visit.</p>
 
                         <h3>8.2 Third-Party Services</h3>
                         <p>We may integrate third-party services into our website, such as social media platforms, payment processors, and analytics providers. These third parties may collect information about your interactions with our Services. We are not responsible for the privacy practices of these third parties, and their use of your information is governed by their respective privacy policies.</p>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>9. HIPAA COMPLIANCE</h2>
                         <h3>9.1 Overview</h3>
                         <p>ClubRXPro is committed to protecting the privacy and security of your health information in compliance with the Health Insurance Portability and Accountability Act of 1996 ("HIPAA"). HIPAA establishes national standards to protect individuals' medical records and other personal health information ("PHI"). As a covered entity under HIPAA, we follow strict guidelines to ensure that your PHI is used and disclosed only as permitted by law.</p>
@@ -184,18 +202,29 @@ export default function Index() {
                         <h3>9.5 Reporting Violations</h3>
                         <p>If you believe your privacy rights under HIPAA have been violated, you have the right to file a complaint with us or with the U.S. Department of Health and Human Services ("HHS"). We will not retaliate against you for filing a complaint.</p>
                         <p>To file a complaint with us, please contact us using the information provided in Section 11.</p>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>10. UPDATES TO THIS PRIVACY POLICY</h2>
                         <h3>10.1 Policy Changes</h3>
                         <p>We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. Any changes will be posted on this page, and the "Effective Date" at the top will be updated. We encourage you to review this Privacy Policy periodically to stay informed about how we are protecting your information.</p>
 
                         <h3>10.2 Notification of Changes</h3>
                         <p>If we make significant changes to this Privacy Policy, we will notify you by posting a prominent notice on our website or by sending you an email. Your continued use of the Services after any changes have been made constitutes your acceptance of the updated Privacy Policy.</p>
+                        </div>
 
 
+                        <div className='main_point'>
                         <h2>11. HOW TO CONTACT US</h2>
                         <p>If you have any questions or concerns about this Privacy Policy, HIPAA compliance, or our privacy practices, please contact us using the following methods:</p>
+                        </div>
+                    </div>
+                    <div className='details_sec'>
+                        <h4>ClubRXPro Customer Service</h4>
+                        <p><strong>Email:</strong><a href="mailto:care@clubrxpro.com" target="_top"> care@clubrxpro.com</a></p>
+                        <p><strong>Phone:</strong><a href="tel:208.440.0928" target="_top"> 1-800-123-4567</a></p>
+                        <p><strong>Mail:</strong> ClubRXPro, 123 Health Lane, Wellness City, CA 90001</p>
                     </div>
                 </div>
         </div>
