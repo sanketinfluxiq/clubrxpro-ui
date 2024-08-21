@@ -1,0 +1,209 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Open Sans", sans-serif;
+    vertical-align: baseline;
+}
+
+
+.common_width {
+    width: 1840px;
+    max-width: 96%;
+    margin: 0 auto;
+}
+.footer_wrapper {
+    background: url('https://all-frontend-assets.s3.amazonaws.com/ClubRXPro/clubrxprologobg.webp'), #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+}
+.footer {
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.footer_icon_left {
+    display: inline-block;
+    cursor: pointer;
+}
+.footer_icon_left img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 400px;
+    max-width: 100%;
+}
+
+
+
+
+/* ---------Terms & Conditions----------- */
+.terms_and_conditions_main {
+    padding: 45px 0;
+}
+.common_width {
+    width: 96%;
+    margin: 0 auto;
+}
+.heading_sec h1 {
+    font-size: 50PX;
+    line-height: 56PX;
+    font-weight: 800;
+    /* color: #0F57C3; */
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom: 35px;
+}
+.content_sec h2 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    /* color: #14B4E0; */
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.content_sec p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #080808;
+    margin-bottom: 25px;
+}
+.sub_content_sec h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+    /* color: #2ec2eb; */
+    margin-bottom: 10px;
+}
+.sub_content_sec h5 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    /* color: #080808; */
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+.sub_content_sec h5 strong {
+    font-weight: 700;
+}
+.terms_and_conditions_main {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #080808;
+    margin-bottom: 25px;
+}
+
+
+
+
+.footer_copyright_sec {
+    color: #98a0a7;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.footer_nav_sec {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer_nav_sec li .footer_link {
+    cursor: pointer;
+    margin: 3px;
+    padding: 10px 15px;
+    color: #98a0a7;
+    font-size: 18px;
+
+}
+.footer_nav_sec li .footer_link:hover {
+    color: #fff;
+    background-color: #c9011b;
+}
+
