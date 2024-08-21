@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pushcodecommit": "git push https://debasis-new-bp-at-212344033003:eD++LGX4O2jMR6NBzxHM+2c13hyXjeBNShv8Gnwwtve1GWbP6aPOSueH2Yo=@git-codecommit.us-east-1.amazonaws.com/v1/repos/clubrxpro-ui  --force main:main"
   },
   "dependencies": {
     "react": "^18",
