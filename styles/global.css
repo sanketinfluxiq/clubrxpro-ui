@@ -99,9 +99,18 @@ video {
     padding: 50px 10px;
     background: url('https://all-frontend-assets.s3.amazonaws.com/ClubRXPro/clubrxprologobg.webp') no-repeat;
 }
+.footer_icon_left {
+    display: inline-block;
+}
 .footer_icon_left img {
     display: inline-block;
     vertical-align: middle;
-    width: 210px;
+    width: 400px;
     max-width: 100%;
+}
+.footer_copyright_sec {
+    font-family: "Open Sans", sans-serif;
+    color: #98a0a7;
+    font-size: 18px;
+    font-weight: 600;
 }
