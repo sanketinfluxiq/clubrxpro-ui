@@ -108,6 +108,7 @@ video {
 }
 .footer_icon_left {
     display: inline-block;
+    cursor: pointer;
 }
 .footer_icon_left img {
     display: inline-block;
@@ -193,15 +194,15 @@ video {
     align-items: center;
 }
 
-.footer_nav_sec li a {
-    text-decoration: none;
+.footer_nav_sec li .footer_link {
+    cursor: pointer;
     margin: 3px;
     padding: 10px 15px;
     color: #98a0a7;
     font-size: 18px;
 
 }
-.footer_nav_sec li a:hover {
+.footer_nav_sec li .footer_link:hover {
     color: #fff;
     background-color: #c9011b;
 }

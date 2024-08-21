@@ -11,24 +11,22 @@ const Footer = () => {
       <div className="footer_wrapper">
         <div className="common_width">
           <div className="footer">
-            <Link href="/" className="footer_icon_left">
+            <span onClick={() => router.push("/")} className="footer_icon_left">
               <img src="https://all-frontend-assets.s3.amazonaws.com/ClubRXPro/clubrxprologo.webp" />
-            </Link>
+            </span>
             <ul className="footer_nav_sec">
               <li>
-                <Link href="/privacy-policy" 
-                // onClick={() => router.push("")}
-                >
+                <span className="footer_link" onClick={() => router.push("/privacy-policy")}>
                   Privacy Policy
-                </Link>
+                </span>
               </li>
               <li>
-                <Link
-                  href="/terms-and-conditions"
-                //   onClick={() => router.push("")}
+                <span
+                  className="footer_link"
+                  onClick={() => router.push("/terms-and-conditions")}
                 >
                   Terms and Conditions
-                </Link>
+                </span>
               </li>
             </ul>
             <p className="footer_copyright_sec">
