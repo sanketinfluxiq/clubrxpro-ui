@@ -224,7 +224,7 @@ export default function Index() {
                         <h4>ClubRXPro Customer Service</h4>
                         <p><strong>Email:</strong><a href="mailto:care@clubrxpro.com" target="_top"> care@clubrxpro.com</a></p>
                         <p><strong>Phone:</strong><a href="tel:208.440.0928" target="_top"> 1-800-123-4567</a></p>
-                        <p><strong>Mail:</strong> ClubRXPro, 123 Health Lane, Wellness City, CA 90001</p>
+                        <p><strong>Address:</strong> [TBA]</p>
                     </div>
                 </div>
         </div>
