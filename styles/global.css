@@ -93,7 +93,7 @@ video {
     margin: 0 auto;
 }
 .footer_wrapper {
-    background: url('https://all-frontend-assets.s3.amazonaws.com/ClubRXPro/clubrxprologobg.webp'), #000;
+    background: #272727;
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto 100%;
@@ -119,65 +119,224 @@ video {
 
 
 
-
 /* ---------Terms & Conditions----------- */
 .terms_and_conditions_main {
-    padding: 45px 0;
-}
-.common_width {
-    width: 96%;
+    background: url(https://all-frontend-assets.s3.amazonaws.com/club-rx-pro/payment_page/clubrx_pro_trms_and_conditions_page_main_bg.webp), url(https://all-frontend-assets.s3.amazonaws.com/club-rx-pro/payment_page/clubrx_pro_trms_and_conditions_page_main_bg2.webp), linear-gradient(0deg, rgb(229 248 255) 0%, rgb(245 252 255) 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto, cover;
+    background-position: top left, bottom right, center;
+    padding: 85px 0;
+  }
+  .tc_and_pp_common_width {
+    width: 90%;
     margin: 0 auto;
-}
-.heading_sec h1 {
-    font-size: 50PX;
-    line-height: 56PX;
-    font-weight: 800;
-    /* color: #0F57C3; */
+  }
+  .heading_sec {
+    width: fit-content;
     text-align: center;
+    border-bottom: 4px solid #0F94D0;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+  .heading_sec h1 {
+    display: inline;
+    font-size: 54px;
+    line-height: 60px;
+    font-weight: 800;
+    text-wrap: balance;
+    background: linear-gradient(180deg, rgb(39 195 233) 0%, rgb(10 138 203) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     text-decoration: underline;
-    margin-bottom: 35px;
-}
-.content_sec h2 {
+    font-family: "Open Sans", sans-serif;
+  }
+  .content_sec h2 {
     font-size: 35px;
     line-height: 40px;
     font-weight: 700;
-    /* color: #14B4E0; */
+    color: #0e95d1;
+    /* text-shadow: 1px 1px 2px #686767e5; */
     text-transform: uppercase;
+    border-left: 5px solid #0e95d1;
+    padding-left: 10px;
     margin-bottom: 10px;
-}
-.content_sec p {
+  }
+  .content_sec p {
     font-size: 20px;
     line-height: 26px;
     font-weight: 500;
-    color: #080808;
+    color: #2e2e2e;
     margin-bottom: 25px;
-}
-.sub_content_sec h3 {
-    font-size: 30px;
-    line-height: 36px;
+  }
+  .sub_content_sec h3 {
+    font-size: 25px;
+    line-height: 30px;
     font-weight: 600;
-    /* color: #2ec2eb; */
+    color: #14a2f5;
+    /* text-shadow: 1px 1px 1px #939393e5; */
     margin-bottom: 10px;
-}
-.sub_content_sec h5 {
+  }
+  .sub_content_sec h5 {
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
-    /* color: #080808; */
+    color: #2e2e2e;
     padding-left: 25px;
     margin-bottom: 20px;
-}
-.sub_content_sec h5 strong {
+  }
+  .sub_content_sec h5 strong {
     font-weight: 700;
-}
-.terms_and_conditions_main {
+  }
+  .terms_and_conditions_main p {
     font-size: 20px;
     line-height: 26px;
     font-weight: 500;
-    color: #080808;
+    color: #2e2e2e;
     margin-bottom: 25px;
-}
+  }
+  .content_sec {
+    margin-bottom: 20px;
+  }
+  
+  
+  @media screen and (max-width : 768px) {
+    .terms_and_conditions_main {
+      padding: 55px 0;
+    }
+    .heading_sec h1 {
+      font-size: 40px;
+      line-height: 46px;
+      margin-bottom: 50px;
+    }
+    .heading_sec {
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width : 499px) {
+    .terms_and_conditions_main {
+      padding: 35px 0;
+    }
+    .heading_sec h1 {
+      font-size: 28px;
+      line-height: 34px;
+      margin-bottom: 40px;
+    }
+    .content_sec h2 {
+      font-size: 28px;
+      line-height: 34px;
+    }
+    .sub_content_sec h3 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .terms_and_conditions_main p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .heading_sec {
+      margin-bottom: 25px;
+    }
+  }
+  
+  /* ---------Privacy Policy---------- */
+  .privacy_policy_main {
+    background: url(https://all-frontend-assets.s3.amazonaws.com/club-rx-pro/payment_page/clubrx_pro_trms_and_conditions_page_main_bg.webp), url(https://all-frontend-assets.s3.amazonaws.com/club-rx-pro/payment_page/clubrx_pro_trms_and_conditions_page_main_bg2.webp), linear-gradient(0deg, rgb(229 248 255) 0%, rgb(245 252 255) 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto, cover;
+    background-position: top left, bottom right, center;
+    padding: 85px 0;
+  }
+  .comtent_sec h6, .content_sec h6 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #0e95d1;
+    /* text-shadow: 1px 1px 1px #939393e5; */
+    margin-bottom: 20px;
+  }
+  .comtent_sec h2 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #0e95d1;
+    /* text-shadow: 1px 1px 2px #686767e5; */
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .comtent_sec h3 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #14a2f5;
+    /* text-shadow: 1px 1px 1px #939393e5; */
+    margin-bottom: 10px;
+  }
+  .comtent_sec p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #2e2e2e;
+    margin-bottom: 12px;
+  }
+  .comtent_sec p a {
+    word-break: break-all;
+  }
+  .sub_pointe {
+    padding-left: 30px;}
+  .sub_pointe li {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #2e2e2e;
+    margin-bottom: 10px;
+  }
+  .main_point {
+    margin-bottom: 25px;
+  }
+  .comtent_sec {
+    margin-bottom: 45px;
+  }
+  .details_sec h4 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0e95d1;
+    /* text-shadow: 1px 1px 1px #939393e5; */
+    text-decoration: underline;
+    margin-bottom: 15px;
+  }
+  .details_sec p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #2e2e2e;
+    margin-bottom: 6px;
+  }
+  
+  
+  @media screen and (max-width : 768px) {
+    .privacy_policy_main {
+      padding: 55px 0;
+    }
+  }
+  @media screen and (max-width : 499px) {
+    .privacy_policy_main {
+      padding: 35px 0;
+    }
+    .content_sec h2 {
+      font-size: 28px;
+      line-height: 34px;
+    }
+    .sub_content_sec h3 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .terms_and_conditions_main p {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
 
 
 

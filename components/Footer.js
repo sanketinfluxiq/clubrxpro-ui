@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="common_width">
           <div className="footer">
             <span onClick={() => router.push("/")} className="footer_icon_left">
-              <img src="https://all-frontend-assets.s3.amazonaws.com/ClubRXPro/clubrxprologo.webp" />
+              <img src="https://all-frontend-assets.s3.amazonaws.com/medigrade_new/medigradelogo.png" />
             </span>
             <ul className="footer_nav_sec">
               <li>
@@ -30,7 +30,7 @@ const Footer = () => {
               </li>
             </ul>
             <p className="footer_copyright_sec">
-              Copyright © {currentYear} ClubRXPro All rights reserved
+              Copyright © {currentYear} MediGrade LLC All rights reserved
             </p>
           </div>
         </div>
